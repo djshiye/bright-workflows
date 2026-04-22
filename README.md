@@ -49,3 +49,8 @@ The job exits early if the condition is met sooner (discovery completes or a mat
 ## Where findings appear
 
 - Bright dashboard URL printed in the `Show scan URL` / `Show discovery URL` step
+
+## Schema FAQ
+
+"Let's say we want to run a PLE scan using a different schema every time, should we grab the new uploaded file ID manually from Bright's dashboard every time we want to run a scan?"
+The answer is no - you only need to upload it once, if you keep the same file name when you upload the schema file it should keep its ID, and only update its contents, therefore it is suitable for automation
